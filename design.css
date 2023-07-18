@@ -1,0 +1,397 @@
+html {
+    background-color: bisque;
+}
+
+.prince-style {
+    color: rgb(24, 19, 24);
+    text-align: right;
+    font-family: 'Alegreya Sans SC';
+    margin-top: 100px;
+    padding: 0;
+}
+
+.guide {
+    word-spacing: 0.2em;
+    font-size: 100em;
+    
+}
+
+span {
+    height: 600%;
+    font-size: 2em;
+}
+
+.button-container {
+    display: inline;
+}
+
+/*.contain{
+    margin: auto;
+    top: 50%;
+    align-content: center;
+}*/
+
+.button-1 {
+    border: 1px solid tomato;
+    display: inline-block;
+    background-color: tomato;
+    color: black;
+    border-radius: 0.8vw;
+    text-decoration: none;
+    padding: 1px;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 20px;
+    height: 60%;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0px 2px;
+    font-family: Atma;
+}
+
+.button-1:hover {
+    background-color: rgb(167, 92, 79);
+
+}
+
+.button-1:active {
+    background-color: grey;
+    box-shadow: 0px 0px;
+    margin-top: 1px;
+
+}
+
+.button-2 {
+    border: 1px solid tomato;
+    background-color: tomato;
+    font-family: Atma;
+    color: black;
+    display: inline-block;
+    border-radius: 0.8vw;
+    text-decoration: none;
+    padding: 1px;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 20px;
+    height: 60%;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0px 2px;
+}
+
+.button-2:hover {
+    background-color: rgb(167, 92, 79);
+}
+
+.button-2:active {
+    background-color: grey;
+    box-shadow: 0px 0px;
+    margin-top: 1px;   
+}
+
+.button-3 {
+    border: 1px solid tomato;
+    background-color: tomato;
+    color: black;
+    display: inline-block;
+    border-radius: 0.8vw;
+    text-decoration: none;
+    padding: 1px;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 20px;
+    height: 60%;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 2px;
+    font-family: Atma;
+}
+
+.button-3:hover {
+    background-color: rgb(167, 92, 79);
+}
+
+.button-3:active {
+    background-color: grey;
+    box-shadow: 0px 0px;
+    margin-top: 1px;
+}
+
+.guide {
+    font-style: italic;
+    font-size: 2em;
+    word-spacing: 2%;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+body {
+    margin: 0 10%;
+}
+
+.container {
+    border: 2px dashed black;
+    border-width: 20px;
+    padding: 10px;
+    margin: 70px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.color-container {
+    width: 100%;
+    display: block;
+    margin: 20px;
+}
+
+
+p {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.purple {
+   background-color: rgb(182, 40, 175);
+   color: black;
+
+}
+
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.pink {
+    background-color: rgb(231, 85, 109);
+    color: black;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.green {
+    background-color: rgb(9, 97, 9);
+    color: black;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.brown {
+    background-color: rgb(196, 92, 36);
+    color: black;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+/*Font section*/
+
+.fonts-container {
+    width: 100%;
+    display: block;
+    margin: 20px;
+}
+
+.font-one {
+    width: 50%;
+    display: inline-block;
+}
+
+/*IBM Plex Mono*/
+
+.font-one-header {
+    font-family: 'IBM Plex Mono', Arial, Helvetica, sans-serif;
+}
+
+.plex-mono {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.font-one-plain {
+    font-family: 'IBM Plex Mono', Arial, Helvetica, sans-serif;
+}
+
+.normal {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.font-one-b {
+    font-family: 'IBM Plex Mono', Arial, Helvetica, sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.font-one-i {
+    font-family: 'IBM Plex Mono', Arial, Helvetica, sans-serif;
+}
+
+.italic {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/*Fira Sans*/
+
+.font-two {
+    width: 45%;
+    display: inline-block;
+    
+}
+
+.font-two-header {
+    font-family: 'Fira Sans', Georgia, 'Times New Roman', Times, serif;
+}
+
+.fira-sans {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.font-two-plain {
+    font-family: 'Fira Sans', Georgia, 'Times New Roman', Times, serif;
+}
+
+.norm {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.font-two-bold {
+    font-family: 'Fira Sans',Georgia, 'Times New Roman', Times, serif;
+}
+
+.fira-bold {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.font-two-italic {
+    font-family: 'Fira Sans', Georgia, 'Times New Roman', Times, serif;
+}
+
+.fira-italic {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/*Chakra Petch*/
+
+.font-three {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-three-header {
+    font-family: 'Chakra Petch', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.chakra {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.font-three-plain {
+    font-family: 'Chakra Petch', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.casual {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.font-three-bold {
+    font-family: 'Chakra Petch', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.chakra-bold {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.font-three-italic {
+    font-family: 'Chakra Petch', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.chakra-italic {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/*styles section*/
+
+.style {
+    font-family: Sarabun, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.heading {
+    text-align: left;
+}
+
+.heading-list {
+    font-family: Sarabun;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.sub-heading {
+    font-family: Prompt;
+}
+
+.double {
+    margin-left: 5px;
+}
+
+.sub-heading-list {
+    font-family: Prompt;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.para {
+    font-family: Prompt;
+    font-weight: 100;
+}
+
+.para-list {
+    font-family: Prompt;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.back-top {
+    text-align: right;
+    font-family: Lobster;
+    font-weight: bold;
+    color: black;
+}
